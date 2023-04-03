@@ -1,0 +1,98 @@
+body{
+    padding:30px;
+    
+}
+
+.head{
+    background-color: rgb(243, 235, 225);
+    margin:0;
+    padding: 3px;
+    border-radius: 5px; 
+    padding-left: 20px; 
+    padding-top: 10px;
+}
+.all{
+    
+    border:solid;
+    border-color: rgb(236, 225, 212);
+    border-width: thin;
+    border-radius: 5px;
+}
+.alerta{
+    background-color: rgb(230, 191, 191);
+    margin: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    padding-left:20px;
+    padding-top: 20px;
+    color:rgb(107, 20, 20);
+    font-weight: 600;
+}
+.tarjeta{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:20px;
+
+}
+input{
+    border-radius: 5px;
+    border-color: rgb(240, 236, 236) ;
+}
+.cajatar{
+    width: 500px;
+}
+.cajamon{
+    width: 350px;
+}
+.middle{
+    display:flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.middle1{
+    align-items: start;
+}
+.pnombre{
+    width: 700px;
+}
+.ciudad{
+    width: 700px;
+}
+.apellido {
+    width: 700px;
+}
+label{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.tcred{
+    background-color: rgb(170, 161, 161);
+    font-size: 30px;
+    width: 250px;
+    display:flex;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.middle2{
+    margin-left: 10px;
+}
+.statepc{
+    display:flex;
+    justify-content: space-evenly;
+}
+select{
+    border-radius: 5px;
+    border-color: rgb(161, 154, 154) ;
+    margin-right: 8px;
+}
+.pfoot{
+    font-size: 15px;
+    color:grey;
+}
+
+.foot{
+    float:right;
+    margin: 20px;
+}
